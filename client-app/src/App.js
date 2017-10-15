@@ -1,18 +1,14 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Route } from 'react-router-dom';
+import CatalogContainer from './components/Catalog/CatalogContainer';
+import PostDetailsContainer from './components/PostDetails/PostDetailsContainer';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+      <div className="app">
+        <Route exact path='/' component={CatalogContainer} />
+        <Route exact path='/post-details' component={PostDetailsContainer} />
       </div>
     );
   }

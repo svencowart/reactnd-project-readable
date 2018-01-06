@@ -1,0 +1,57 @@
+.post-details-container {
+  padding: 40px 80px;
+  margin: 0 auto;
+  max-width: 900px;
+}
+.post-details-container hr {
+  border-color: var(--mdc-divider-color);
+  color: var(--mdc-divider-color);
+  margin: 40px 0 32px;
+}
+.post-details-container h3 {
+  margin: 8px 0;
+}
+.post-details-container h4 {
+  margin: 40px 0 8px;
+}
+.post-details-container h5 {
+  font-weight: normal;
+  margin: 8px 0;
+}
+.post-meta-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.post-details-body {
+  border: 1px solid var(--mdc-divider-color);
+  border-radius: 4px;
+  padding: 32px 16px;
+}
+.comment-meta .author-by, .comment-meta .post-preview-date {
+  font-size: 0.875rem;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  line-height: 1.25rem;
+  text-decoration: inherit;
+  text-transform: inherit;
+}
+.comment-meta .author-name {
+  font-size: 0.875rem;
+  letter-spacing: 0.04em;
+  line-height: 1.25rem;
+  text-decoration: inherit;
+  text-transform: inherit;
+}
+.post-details-container .mdc-text-field {
+  width: 100%
+}
+.post-details-container .mdc-text-field--textarea .mdc-text-field__input:not(.mdc-text-field--invalid) {
+  border-color: rgba(0,0,0,0.73) !important;
+}
+.post-details-container .mdc-text-field--textarea .mdc-text-field__label {
+  background-color: transparent !important;
+}
+#edit-author-field, #edit-body-field {
+  width: 100%;
+}

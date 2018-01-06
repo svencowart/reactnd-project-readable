@@ -1,0 +1,32 @@
+header {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+header h2 {
+  margin: 0;
+}
+header .mdc-toolbar {
+  background: #FFF;
+  box-shadow: 0 1px 8px 0 rgba(0,0,0,.2), 0 3px 4px 0 rgba(0,0,0,.14), 0 3px 3px -2px rgba(0,0,0,.12);
+  z-index: 3;
+  color: #212121;
+}
+.breadcrumb-divider {
+  margin: 0 8px;
+}
+.breadcrumb-category {
+  text-transform: capitalize;
+}
+.mdc-toolbar__section--align-flexible {
+  align-items: center !important;
+  justify-content: space-between !important;
+}
+.mdc-toolbar__button-group {
+  position: relative;
+  margin-right: 16px;
+}
+.mdc-list-item.active, .mdc-list-item.active i {
+  color: var(--mdc-theme-primary-dark) !important;
+}

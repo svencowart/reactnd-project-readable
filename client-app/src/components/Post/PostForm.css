@@ -1,0 +1,30 @@
+.form-container {
+  padding: 40px 80px;
+  margin: 0 auto;
+  max-width: 900px;
+}
+.form-container .mdc-text-field {
+  width: 100%;
+}
+.form-container .mdc-text-field--textarea .mdc-text-field__input:not(.mdc-text-field--invalid) {
+  border-color: rgba(0,0,0,0.73) !important;
+}
+.form-container .mdc-text-field--textarea .mdc-text-field__label {
+  background-color: transparent !important;
+}
+.form-container .title-row {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.form-container .title-field {
+  flex: 1;
+}
+.form-container .category-select {
+  flex: 0;
+}
+.form-container .submit-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

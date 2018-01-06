@@ -1,0 +1,13 @@
+.mdc-button--circle {
+  width: 36px;
+  min-width: 36px !important;
+  padding: 0 9px !important;
+  border-radius: 50% !important;
+}
+.mdc-list-item {
+  justify-content: space-between !important;
+  align-items: center !important;
+}
+.material-icons {
+  color: var(--mdc-icon-color);
+}

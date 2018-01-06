@@ -1,0 +1,22 @@
+header.post-header .back-button {
+  padding-left: 8px !important;
+  margin-left: 16px !important;
+}
+.mdc-toolbar__section--align-start-middle {
+  align-items: center !important;
+  justify-content: flex-start !important;
+}
+.mdc-toolbar__section--align-start-middle h2 {
+  position: relative;
+  padding-left: 24px !important;
+}
+.mdc-toolbar__section--align-start-middle h2:before {
+  content: '';
+  background-color: var(--mdc-divider-color);
+  height: 36px;
+  width: 1px;
+  display: block;
+  position: absolute;
+  top: 10px;
+  left: 0;
+}

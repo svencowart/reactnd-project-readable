@@ -5,14 +5,19 @@
   "dependencies": {
     "@material/button": "^0.7.1",
     "@material/card": "^0.2.10",
+    "@material/dialog": "^0.27.0",
     "@material/drawer": "^0.5.9",
     "@material/layout-grid": "^0.4.4",
     "@material/list": "^0.2.20",
     "@material/menu": "^0.4.8",
-    "@material/select": "^0.3.18",
+    "@material/ripple": "^0.26.0",
+    "@material/select": "^0.27.0",
+    "@material/textfield": "^0.27.0",
     "@material/theme": "^0.4.0",
     "@material/toolbar": "^0.4.11",
     "@material/typography": "^0.3.0",
+    "cross-fetch": "^1.1.1",
+    "lodash": "^4.17.4",
     "node-sass-chokidar": "^0.0.3",
     "npm-run-all": "^4.1.1",
     "react": "^16.0.0",
@@ -21,7 +26,10 @@
     "react-router": "^4.2.0",
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.0.14",
-    "redux": "^3.7.2"
+    "redux": "^3.7.2",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.2.0",
+    "uuid": "^3.1.0"
   },
   "scripts": {
     "start": "react-scripts start",

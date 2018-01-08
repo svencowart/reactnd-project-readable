@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { connect } from 'react-redux';
 import PostHeader from '../PostHeader.js';
 import PublishPostForm from './PublishPostForm.js';
 
@@ -14,4 +13,4 @@ class PublishPostContainer extends Component {
   }
 }
 
-export default connect()(PublishPostContainer);
+export default PublishPostContainer;

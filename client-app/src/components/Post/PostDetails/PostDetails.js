@@ -17,7 +17,7 @@ import {
   deleteComment,
 } from '../../../actions/index';
 
-class PublishPostForm extends Component {
+class PostDetails extends Component {
   state = {
     openComment: {
       id: '',
@@ -298,14 +298,10 @@ class PublishPostForm extends Component {
   }
 }
 
-PublishPostForm.propTypes = {
+PostDetails.propTypes = {
   dispatch: PropTypes.func.isRequired,
   historyPush: PropTypes.func.isRequired,
+  post: PropTypes.object,
 };
 
-const mapStateToProps = (state, ownProps) => {
-  return {
-  };
-};
-
-export default connect(mapStateToProps)(PublishPostForm);
+export default connect()(PostDetails);
